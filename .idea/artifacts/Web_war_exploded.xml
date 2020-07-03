@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Web_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="book" />
+          <element id="library" level="module" name="book" module-name="Web" />
+        </element>
+        <element id="dir-copy" path="$PROJECT_DIR$/web/pages" />
+        <element id="dir-copy" path="$PROJECT_DIR$/web/static" />
+      </element>
+      <element id="javaee-facet-resources" facet="Web/web/Web" />
+    </root>
+  </artifact>
+</component>
